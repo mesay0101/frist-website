@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blender Artist and Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Section -->
+    <header class="bg-gray-800 py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Mesay Andargachew</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-yellow-500">About Me</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-500">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-cover bg-center" style="background-image: url('my-background-image.jpg')">
+        <div class="bg-black bg-opacity-60 py-10">
+            <h2 class="text-4xl font-bold mb-4">Blender Artist & Freshman Software Engineer</h2>
+            <p class="text-lg mb-6">Exploring the world of 3D modeling and software development.</p>
+            <a href="#projects" class="bg-yellow-500 hover:bg-yellow-600 px-6 py-3 rounded-full text-black font-bold">Check My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-6">About Me</h3>
+            <p class="text-lg mb-4">I'm a freshman software engineering student passionate about technology and 3D art. I started my journey using Blender to create amazing 3D models and renders, and now I'm expanding my knowledge into coding and software development.</p>
+            <p class="text-lg">I love learning new tools and languages, and I aim to combine my creativity from Blender with the logic and problem-solving of software engineering.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="py-16 bg-gray-800">
+    <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-6">Projects</h3>
+
+        <!-- Project 1 -->
+        <div class="mb-10">
+            <h4 class="text-2xl font-bold mb-2">Blender Art Project</h4>
+            <p class="text-lg mb-4">A stunning 3D model created using Blender.</p>
+            <!-- Horizontal images with space between them -->
+            <div class="flex space-x-4">
+                <img src="assets/photo_3_2024-10-11_17-57-25.jpg" alt="Blender Art Image 1" class="w-1/3 h-auto">
+                <img src="assets/image.jpg" alt="Blender Art Image 3" class="w-1/3 h-auto">
+                <img src="assets/photo_4_2024-10-11_17-57-25.jpg" alt="Blender Art Image 3" class="w-1/3 h-auto">
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="mb-10">
+            <h4 class="text-2xl font-bold mb-2">Environment Render</h4>
+            <p class="text-lg mb-4">Blender assets models.</p>
+            <!-- Horizontal images with space between them -->
+            <div class="flex space-x-4">
+                <img src="assets/photo_1_2024-10-11_17-57-25.jpg" alt="Environment Render Image 1" class="w-1/3 h-auto">
+                <img src="assets/photo_5_2024-10-11_17-57-25.jpg" alt="Environment Render Image 2" class="w-1/3 h-auto">
+                <img src="assets/photo_6_2024-10-11_17-57-25.jpg" alt="Environment Render Image 3" class="w-1/3 h-auto">
+            </div>
+        </div>
+        
+        <!-- Add more projects as needed, following the same structure -->
+        
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-700">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+            <p class="text-lg mb-6">Want to connect? Feel free to reach out to me for collaborations, opportunities, or just to say hi!</p>
+            <form id="contactForm" class="space-y-4">
+                <input type="text" id="name" class="block w-full bg-gray-800 text-white p-4 rounded" placeholder="Your Name">
+                <input type="email" id="email" class="block w-full bg-gray-800 text-white p-4 rounded" placeholder="Your Email">
+
+Mesay, [10/11/2024 7:26 PM]
+<textarea id="message" class="block w-full bg-gray-800 text-white p-4 rounded" placeholder="Your Message"></textarea>
+                <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 px-6 py-3 rounded-full text-black font-bold">Send Message</button>
+            </form>
+            <p id="successMessage" class="text-green-400 mt-4 hidden">Message sent successfully!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-4 text-center">
+        <p>&copy; 2024 Mesay Andargachew. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
